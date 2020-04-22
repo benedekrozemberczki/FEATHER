@@ -53,25 +53,13 @@ argparse          1.1.0
 Learning of the embedding is handled by the `src/main.py` script which provides the following command line arguments.
 
 #### Input and output options
-
 ```
   --graph-input      STR   Input edge list csv.     Default is `input/edges/chameleon_edges.csv`.
   --features-input   STR   Input features json.     Default is `input/features/chameleon_features.json`.
   --output           STR   Embedding output path.   Default is `output/chameleon_embedding.csv`.
   --log              STR   Log output path.         Default is `logs/chameleon.json`.
 ```
-#### Random walk options
-
-```
-  --sampling      STR       Random walker order (first/second).              Default is `first`.
-  --P             FLOAT     Return hyperparameter for second-order walk.     Default is 1.0
-  --Q             FLOAT     In-out hyperparameter for second-order walk.     Default is 1.0.
-  --walk-number   INT       Walks per source node.                           Default is 5.
-  --walk-length   INT       Truncated random walk length.                    Default is 80.
-```
-
 #### Model options
-
 ```
   --model                 STR        Pooled or multi-scla model (AE/MUSAE).       Default is `musae`.
   --approximation-order   INT        Matrix powers approximated.                  Default is 3.
