@@ -15,7 +15,7 @@ The datasets are also available on [SNAP](http://snap.stanford.edu/).
 The model is now also available in the package [Karate Club](https://github.com/benedekrozemberczki/karateclub).
 
 This repository provides the reference implementation for FEATHER as described in the paper:
-> Multi-scale Attributed Node Embedding.
+> Characteristic Functions on Graphs: Birds of a Feather from Statistical Descriptors to Parametric Models.
 > [Benedek Rozemberczki](http://homepages.inf.ed.ac.uk/s1668259/) and [Rik Sarkar](https://homepages.inf.ed.ac.uk/rsarkar/).
 > 2020.
 
