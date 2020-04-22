@@ -2,7 +2,7 @@ FEATHER
 ============================================
 The reference implementation of "Multi-scale Attributed Node Embedding."
 <p align="center">
-  <img width="800" src="musae.jpg">
+  <img width="800" src="feather.jpg">
 </p>
 
 ### Abstract
