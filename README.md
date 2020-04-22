@@ -32,7 +32,7 @@ This repository provides the reference implementation for FEATHER as described i
 If you find MUSAE useful in your research, please consider citing the following paper:
 ```bibtex
 >@misc{rozemberczki2020feather,    
-       title = {Multi-scale Attributed Node Embedding},   
+       title = {Characteristic Functions on Graphs: Birds of a Feather from Statistical Descriptors to Parametric Models},   
        author = {Benedek Rozemberczki and Rik Sarkar},   
        year = {2020}
        }
