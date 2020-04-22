@@ -103,9 +103,6 @@ Learning of the embedding is handled by the `src/main.py` script which provides 
 ```
 
 ### Examples
-<p align="center">
-  <img width="500" src="musae.gif">
-</p>
 
 Training a MUSAE model for a 10 epochs.
 ```sh
