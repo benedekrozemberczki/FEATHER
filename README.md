@@ -33,13 +33,10 @@ This repository provides the reference implementation for FEATHER as described i
 
 If you find MUSAE useful in your research, please consider citing the following paper:
 ```bibtex
->@misc{rozemberczki2019multiscale,    
+>@misc{rozemberczki2020feather,    
        title = {Multi-scale Attributed Node Embedding},   
        author = {Benedek Rozemberczki and Carl Allen and Rik Sarkar},   
-       year = {2019},   
-       eprint = {1909.13021},  
-       archivePrefix = {arXiv},  
-       primaryClass = {cs.LG}   
+       year = {2020}
        }
 ```
 ### Requirements
