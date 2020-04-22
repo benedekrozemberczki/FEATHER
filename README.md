@@ -18,9 +18,8 @@ The model is now also available in the package [Karate Club](https://github.com/
 
 This repository provides the reference implementations for MUSAE and AE as described in the paper:
 > Multi-scale Attributed Node Embedding.
-> [Benedek Rozemberczki](http://homepages.inf.ed.ac.uk/s1668259/), [Carl Allen](http://homepages.inf.ed.ac.uk/s1577741/), and [Rik Sarkar](https://homepages.inf.ed.ac.uk/rsarkar/).
-> arXiv, 2019.
-> https://arxiv.org/abs/1909.13021
+> [Benedek Rozemberczki](http://homepages.inf.ed.ac.uk/s1668259/) and [Rik Sarkar](https://homepages.inf.ed.ac.uk/rsarkar/).
+> 2020.
 
 
 ### Table of Contents
