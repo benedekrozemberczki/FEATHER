@@ -33,7 +33,7 @@ If you find MUSAE useful in your research, please consider citing the following 
 ```bibtex
 >@misc{rozemberczki2020feather,    
        title = {Multi-scale Attributed Node Embedding},   
-       author = {Benedek Rozemberczki and Carl Allen and Rik Sarkar},   
+       author = {Benedek Rozemberczki and Rik Sarkar},   
        year = {2020}
        }
 ```
