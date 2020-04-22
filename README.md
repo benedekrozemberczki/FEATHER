@@ -1,4 +1,4 @@
-MUSAE
+FEATHER
 ============================================
 The reference implementation of "Multi-scale Attributed Node Embedding."
 <p align="center">
