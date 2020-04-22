@@ -1,4 +1,4 @@
-MUSAE [![Arxiv](https://img.shields.io/badge/ArXiv-1909.13021-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/1909.13021)
+MUSAE
 ============================================
 The reference implementation of "Multi-scale Attributed Node Embedding."
 <p align="center">
