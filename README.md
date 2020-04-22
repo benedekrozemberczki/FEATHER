@@ -24,10 +24,8 @@ This repository provides the reference implementation for FEATHER as described i
 
 1. [Citing](#citing)  
 2. [Requirements](#requirements)
-3. [Datasets](#datasets)  
-4. [Logging](#logging)  
-5. [Options](#options) 
-6. [Examples](#examples)
+3. [Options](#options) 
+4. [Examples](#examples)
 
 ### Citing
 
@@ -51,8 +49,6 @@ scipy             1.1.0
 argparse          1.1.0
 gensim            3.6.0
 ```
-### Datasets
-
 ### Options
 
 Learning of the embedding is handled by the `src/main.py` script which provides the following command line arguments.
