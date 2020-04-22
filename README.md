@@ -14,7 +14,7 @@ The datasets are also available on [SNAP](http://snap.stanford.edu/).
 
 The model is now also available in the package [Karate Club](https://github.com/benedekrozemberczki/karateclub).
 
-This repository provides the reference implementations for MUSAE and AE as described in the paper:
+This repository provides the reference implementation for FEATHER as described in the paper:
 > Multi-scale Attributed Node Embedding.
 > [Benedek Rozemberczki](http://homepages.inf.ed.ac.uk/s1668259/) and [Rik Sarkar](https://homepages.inf.ed.ac.uk/rsarkar/).
 > 2020.
