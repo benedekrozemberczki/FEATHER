@@ -73,6 +73,11 @@ Training a MUSAE model for a 10 epochs.
 $ python src/main.py --epochs 10
 ```
 
+Changing the scale parameter to increase adjacency matrix powers.
+```sh
+$ python src/main.py --order 3
+```
+
 Changing the dimension size.
 ```sh
 $ python src/main.py --dimensions 32
