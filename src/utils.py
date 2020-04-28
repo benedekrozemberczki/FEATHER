@@ -42,8 +42,8 @@ def load_features(features_path):
 def load_graphs(graphs_path):
     """
     Reading a NetworkX graph.
-    :param graph_path: Path to the edge list.
-    :return graph: NetworkX object.
+    :param graphs_path: Path to the edge list.
+    :return graphs: NetworkX object.
     """
     graphs = json.load(open(graphs_path))
     graphs = [nx.from_edgelist(graphs[str(k)]) for k in range(len(graphs))]
