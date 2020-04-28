@@ -1,7 +1,7 @@
 """Running FEATHER."""
 
 from utils import tab_printer
-from feather import FEATHER, FEATHER_G
+from feather import FEATHER, FEATHERG
 from param_parser import parameter_parser
 from utils import load_graph, load_features, load_graphs, save_embedding
 
@@ -19,7 +19,7 @@ def main(args):
     elif args.model_type == "FEATHER-G":
         print("\nFitting a graph level embedding.\n")
         graphs = load_graphs(args.graphs_input)
-        model = FEATHER_G()
+        model = FEATHERG()
         model.fit(graphs)
     else:
         quit()
