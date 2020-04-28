@@ -20,7 +20,7 @@ def parameter_parser():
     parser.add_argument('--graphs-input',
                         nargs='?',
                         default='./input/graphs/ER_graphs.json',
-	                help='Embeddings path.')
+	                help='Graphs input as JSON.')
 
     parser.add_argument('--output',
                         nargs='?',
