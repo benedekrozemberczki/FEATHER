@@ -44,18 +44,16 @@ class FEATHER:
             feature_blocks.append(X)
         self._X = np.concatenate(feature_blocks, axis=1)
 
-
     def get_embedding(self):
         return self._X
 
 
-class FEATHER_G:
+class FEATHERG:
     def __init__(self, theta_max=2.5, eval_points=25, order=5, pooling="mean"):
         self.theta_max = theta_max
         self.eval_points = eval_points
         self.order = order
         self.pooling = pooling
-
 
     def _pooling(self, features):
         if self.pooling == "min":
