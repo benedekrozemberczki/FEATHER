@@ -61,9 +61,10 @@ Learning of the embedding is handled by the `src/main.py` script which provides 
 ```
 #### Model options
 ```
-  --model                 STR        Pooled or multi-scla model (AE/MUSAE).       Default is `musae`.
-  --approximation-order   INT        Matrix powers approximated.                  Default is 3.
-  --down-sampling         FLOAT      Length of random walk per source.            Default is 0.001.
+  --model         STR      .                                   Default is `musae`.
+  --eval-points   INT      Number of evaluation points.        Default is 3.
+  --order         INT      Matrix powers approximated.         Default is 3.
+  --theta-max     FLOAT    Length of random walk per source.   Default is 0.001.
 ```
 
 ### Examples
