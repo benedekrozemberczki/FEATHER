@@ -40,7 +40,7 @@ def parameter_parser():
     parser.add_argument('--theta-max',
                         type=float,
                         default=2.5,
-	                help='Return hyperparameter. Default is 1.0.')
+	                help='Largest characteristic function evaluation point. Default is 2.5.')
 
     parser.add_argument('--model-type',
                         nargs='?',
