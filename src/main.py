@@ -26,7 +26,6 @@ def main(args):
     X = model.get_embedding()
     save_embedding(X, args.output)
 
-
 if __name__ == "__main__":
     args = parameter_parser()
     tab_printer(args)
