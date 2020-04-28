@@ -1,6 +1,5 @@
 """Running MUSAE."""
 
-
 from utils import tab_printer
 from feather import FEATHER, FEATHER_G
 from param_parser import parameter_parser
@@ -8,7 +7,7 @@ from utils import load_graph, load_features, load_graphs, save_embedding
 
 def main(args):
     """
-    Multi-scale attributed node embedding machine calling wrapper.
+    Characteristic function embedding wrapper.
     :param args: Arguments object parsed up.
     """
     if args.model_type == "FEATHER":
