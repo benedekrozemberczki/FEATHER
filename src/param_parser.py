@@ -15,7 +15,7 @@ def parameter_parser():
     parser.add_argument('--feature-input',
                         nargs='?',
                         default="./input/features/ER_features.csv",
-	                help='Input features json.')
+	                help='Input features csv.')
 
     parser.add_argument('--graphs-input',
                         nargs='?',
