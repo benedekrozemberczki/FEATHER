@@ -35,7 +35,7 @@ def parameter_parser():
     parser.add_argument('--order',
                         type=int,
                         default=5,
-	                help='Number of walks. Default is 5.')
+	                help='Order of adjancency matrix powers. Default is 5.')
 
     parser.add_argument('--theta-max',
                         type=float,
