@@ -30,7 +30,7 @@ def parameter_parser():
     parser.add_argument('--eval-points',
                         type=int,
                         default=25,
-	                help='Number of dimensions. Default is 25.')
+	                help='Number of evaluation points. Default is 25.')
 
     parser.add_argument('--order',
                         type=int,
