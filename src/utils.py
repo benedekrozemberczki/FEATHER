@@ -32,18 +32,22 @@ def load_graph(graph_path):
 
 def load_features(features_path):
     """
-    Reading the features from disk.
-    :param features_path: Location of feature JSON.
-    :return features: Feature hash table.
+    Reading the features from drive.
+    :param features_path: Location of features on drive.
+    :return features: Features Numpy array.
     """
     features =  np.array(pd.read_csv(features_path))
     return features
 
 def load_graphs(graphs_path):
+    """
+    Reading a NetworkX graph.
+    :param graph_path: Path to the edge list.
+    :return graph: NetworkX object.
+    """
     graphs = json.load(open(graphs_path))
     graphs = [nx.from_edgelist(graphs[str(k)]) for k in range(len(graphs))]
     return graphs
-
 
 def save_embedding(X, output_path):
     embedding = np.concatenate([np.arange(X.shape[0]).reshape(-1, 1), X],axis=1)
