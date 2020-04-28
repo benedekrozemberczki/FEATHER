@@ -1,4 +1,4 @@
-"""Running MUSAE."""
+"""Running FEATHER."""
 
 from utils import tab_printer
 from feather import FEATHER, FEATHER_G
