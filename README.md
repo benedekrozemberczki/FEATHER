@@ -68,9 +68,9 @@ Learning of the embedding is handled by the `src/main.py` script which provides 
 ```
 
 ### Examples
-Training a MUSAE model for a 10 epochs.
+Training a FEATHER model.
 ```sh
-$ python src/main.py --epochs 10
+$ python src/main.py
 ```
 
 Changing the scale parameter to increase adjacency matrix powers.
