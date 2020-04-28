@@ -61,7 +61,7 @@ Learning of the embedding is handled by the `src/main.py` script which provides 
 ```
 #### Model options
 ```
-  --model         STR      .                                   Default is `musae`.
+  --model         STR      .                                   Default is `FEATHER`.
   --eval-points   INT      Number of evaluation points.        Default is 3.
   --order         INT      Matrix powers approximated.         Default is 3.
   --theta-max     FLOAT    Length of random walk per source.   Default is 0.001.
