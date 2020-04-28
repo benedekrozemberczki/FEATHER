@@ -4,6 +4,7 @@ import argparse
 
 def parameter_parser():
     """
+    Parsing the parameters from the command line.
     """
     parser=argparse.ArgumentParser(description="Run FEATHER / FEATHER-G.")
 
