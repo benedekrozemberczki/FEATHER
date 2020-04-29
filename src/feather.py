@@ -83,4 +83,9 @@ class FEATHERG:
         self._X = np.array([self._fit_a_FEATHER(graph) for graph in tqdm(graphs)])
 
     def get_embedding(self):
+        r"""Getting the node embedding.
+
+        Return types:
+            * **embedding** *(Numpy array)* - The embedding of nodes.
+        """
         return self._X
