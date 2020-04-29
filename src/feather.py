@@ -65,7 +65,7 @@ class FEATHERG:
         theta_max (float): Maximal evaluation point. Default is 2.5.
         eval_points (int): Number of characteristic function evaluation points. Default is 25.
         order (int): Scale - number of adjacency matrix powers. Default is 5.
-        pooling (str): Scale - number of adjacency matrix powers. Default is 5.
+        pooling (str): Pooling procedure (mean/max/min). Default is "mean".
     """
     def __init__(self, theta_max=2.5, eval_points=25, order=5, pooling="mean"):
         self.theta_max = theta_max
