@@ -44,6 +44,13 @@ class FEATHER:
         return A_tilde
 
     def fit(self, graph, X):
+        """
+        Fitting a FEATHER model.
+
+        Arg types:
+            * **graph** *(NetworkX graph)* - The graph to be embedded.
+            * **X** *(Scipy COO or Numpy array)* - The matrix of node features.
+        """
         theta = np.linspace(0.01, self.theta_max, self.eval_points)
         A_tilde = self._create_A_tilde(graph)
         X = np.outer(X, theta)
