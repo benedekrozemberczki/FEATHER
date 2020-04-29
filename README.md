@@ -49,6 +49,19 @@ argparse          1.1.0
 
 #### Node level
 
+<p align="justify">
+The code takes an input graph in a csv file. Every row indicates an edge between two nodes separated by a comma. The first row is a header. Nodes should be indexed starting with 0. </p>
+
+The feature matrix is **dense** it is assumed that it is stored as csv with comma separators. It has a header, and rows are separated by node identifiers (increasing). It should look like this:
+
+| **Feature 1** | **Feature 2** | **Feature 3** | **Feature 4** |
+| --- | --- | --- |--- |
+| 3 |0 |1.37 |1 |
+| 1 |1 |2.54 |-11 |
+| 2 |0 |1.08 |-12 |
+| 1 |1 |1.22 |-4 |
+| ... |... |... |... |
+| 5 |0 |2.47 |21 |
 
 #### Graph level
 
