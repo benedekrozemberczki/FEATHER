@@ -73,7 +73,6 @@ class FEATHER:
         """
         return self._X
 
-
 class FEATHERG:
     r"""An implementation of the graph level unsupervised FEATHER.
     
@@ -90,6 +89,14 @@ class FEATHERG:
         self.pooling = pooling
 
     def _pooling(self, features):
+        """
+        Pooling a node level embedding to create a graph level embedding.
+        
+        Arg types:
+            * **features* *(Numpy array)* - The node embedding array.
+        Return types:
+            * **graph_embedding** *(Numpy array)* - The whole graph embedding vector.
+        """
         if self.pooling == "min":
             graph_embedding = np.min(features, axis=0)
         elif self.pooling == "max":
