@@ -44,6 +44,10 @@ texttable         1.5.0
 scipy             1.1.0
 argparse          1.1.0
 ```
+
+### Datasets
+
+
 ### Options
 
 Learning the embedding is handled by the `src/main.py` script which provides the following command line arguments.
