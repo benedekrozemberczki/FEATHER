@@ -1,8 +1,8 @@
 import math
 import numpy as np
+from tqdm import tqdm
 import networkx as nx
 from scipy import sparse
-from tqdm import tqdm
 
 class FEATHER:
     def __init__(self, theta_max=2.5, eval_points=25, order=5):
