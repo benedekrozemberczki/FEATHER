@@ -32,6 +32,11 @@ class FEATHER:
 
     def _create_A_tilde(self, graph):
         """
+        Creating a sparse normalized adjacency matrix.
+        Arg types:
+            * **graph** *(NetworkX graph)* - The graph to be embedded.
+        Return types:
+            * **A_tilde** *(Scipy array)* - The normalized adjacency matrix.
         """
         A = nx.adjacency_matrix(graph, nodelist = range(graph.number_of_nodes()))
         D_inverse = self._create_D_inverse(graph) 
