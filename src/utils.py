@@ -51,8 +51,11 @@ def load_graphs(graphs_path):
 
 def save_embedding(X, output_path):
     """
+    Saving the node embedding.
+    :param X: Node embedding array.
+    :param output_path: Path for saving the node embedding.
     """
-    embedding = np.concatenate([np.arange(X.shape[0]).reshape(-1, 1), X],axis=1)
+    embedding = np.concatenate([np.arange(X.shape[0]).reshape(-1, 1), X], axis=1)
     columns = ["id"] + ["x_" + str(x) for x in range(X.shape[1])]
-    embedding = pd.DataFrame(embedding, columns = columns)
+    embedding = pd.DataFrame(embedding, columns=columns)
     embedding.to_csv(output_path, index=None)
