@@ -45,7 +45,12 @@ scipy             1.1.0
 argparse          1.1.0
 ```
 
-### Datasets
+### Input
+
+#### Node level
+
+
+#### Graph level
 
 
 ### Options
@@ -57,7 +62,7 @@ Learning the embedding is handled by the `src/main.py` script which provides the
   --graph-input      STR   Input edge list csv.      Default is `input/edges/ER_edges.csv`.
   --feature-input    STR   Input features csv.       Default is `input/features/ER_features.csv`.
   --graphs           STR   Input graphs json.        Default is `input/graphs/ER_graphs.json`.
-  --output           STR   Embedding output path.    Default is `output/chameleon.json`.
+  --output           STR   Embedding output path.    Default is `output/ER_node_embedding.csv`.
 ```
 #### Model options
 ```
@@ -85,5 +90,5 @@ $ python src/main.py --eval-points 25
 
 Training a graph level FEATHER model with the default dataset.
 ```sh
-$ python src/main.py --model-type FEATHER-G
+$ python src/main.py --model-type FEATHER-G --output output/ER_graph_embedding.csv
 ```
