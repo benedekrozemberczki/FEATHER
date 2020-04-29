@@ -46,14 +46,14 @@ argparse          1.1.0
 ```
 ### Options
 
-Learning of the embedding is handled by the `src/main.py` script which provides the following command line arguments.
+Learning the embedding is handled by the `src/main.py` script which provides the following command line arguments.
 
 #### Input and output options
 ```
-  --graph-input      STR   Input edge list csv.     Default is `input/edges/chameleon_edges.csv`.
-  --feature-input    STR   Input features csv.     Default is `input/features/chameleon_features.json`.
-  --graphs           STR   Embedding output path.   Default is `output/chameleon_embedding.csv`.
-  --output           STR   Log output path.         Default is `logs/chameleon.json`.
+  --graph-input      STR   Input edge list csv.      Default is `input/edges/chameleon_edges.csv`.
+  --feature-input    STR   Input features csv.       Default is `input/features/chameleon_features.json`.
+  --graphs           STR   Input graphs json.        Default is `output/chameleon_embedding.csv`.
+  --output           STR   Embedding output path.    Default is `logs/chameleon.json`.
 ```
 #### Model options
 ```
