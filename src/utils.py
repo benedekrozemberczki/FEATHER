@@ -42,14 +42,16 @@ def load_features(features_path):
 def load_graphs(graphs_path):
     """
     Reading a NetworkX graph.
-    :param graphs_path: Path to the edge list.
-    :return graphs: NetworkX object.
+    :param graphs_path: Path to the graphs JSON file.
+    :return graphs: List of NetworkX graphs. 
     """
     graphs = json.load(open(graphs_path))
     graphs = [nx.from_edgelist(graphs[str(k)]) for k in range(len(graphs))]
     return graphs
 
 def save_embedding(X, output_path):
+    """
+    """
     embedding = np.concatenate([np.arange(X.shape[0]).reshape(-1, 1), X],axis=1)
     columns = ["id"] + ["x_" + str(x) for x in range(X.shape[1])]
     embedding = pd.DataFrame(embedding, columns = columns)
