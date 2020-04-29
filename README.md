@@ -1,6 +1,6 @@
 FEATHER
 ============================================
-The reference implementation of "Characteristic Functions on Graphs: Birds of a Feather from Statistical Descriptors to Parametric Models."
+The Python reference implementation of "Characteristic Functions on Graphs: Birds of a Feather from Statistical Descriptors to Parametric Models."
 <p align="center">
   <img width="800" src="FEATHER.png">
 </p>
