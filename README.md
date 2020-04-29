@@ -54,8 +54,8 @@ Learning the embedding is handled by the `src/main.py` script which provides the
 
 #### Input and output options
 ```
-  --graph-input      STR   Input edge list csv.      Default is `input/edges/chameleon_edges.csv`.
-  --feature-input    STR   Input features csv.       Default is `input/features/chameleon_features.json`.
+  --graph-input      STR   Input edge list csv.      Default is `input/edges/ER_edges.csv`.
+  --feature-input    STR   Input features csv.       Default is `input/features/ER_features.csv`.
   --graphs           STR   Input graphs json.        Default is `output/chameleon_embedding.csv`.
   --output           STR   Embedding output path.    Default is `logs/chameleon.json`.
 ```
