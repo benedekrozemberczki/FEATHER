@@ -87,7 +87,7 @@ Learning the embedding is handled by the `src/main.py` script which provides the
 ```
 #### Model options
 ```
-  --model-type    STR      FEATHER or Pooled-FEATHER model.     Default is  `FEATHER`.
+  --model-type    STR      FEATHER or FEATHER-G model.     Default is  `FEATHER`.
   --eval-points   INT      Number of evaluation points.         Default is  25.
   --order         INT      Matrix powers approximated.          Default is  5.
   --theta-max     FLOAT    Length of random walk per source.    Default is  2.5.
