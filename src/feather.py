@@ -5,6 +5,12 @@ import networkx as nx
 from scipy import sparse
 
 class FEATHER:
+    r"""An implementation of the node level unsupervised FEATHER.
+    Args:
+        theta_max (float): HogWild! learning rate. Default is 2.5.
+        eval_points (int): Number of epochs. Default is 25.
+        order (int): Minimal count of node occurences. Default is 5.
+    """
     def __init__(self, theta_max=2.5, eval_points=25, order=5):
         self.theta_max = theta_max
         self.eval_points = eval_points
