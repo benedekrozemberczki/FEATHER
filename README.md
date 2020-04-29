@@ -66,6 +66,15 @@ The feature matrix is **dense** it is assumed that it is stored as csv with comm
 #### Graph level
 
 
+
+```javascript
+{ 0: [0, 1, 38, 1968, 2000, 52727],
+  1: [10000, 20, 3],
+  2: [],
+  ...
+  n: [2018, 10000]}
+```
+
 ### Options
 
 Learning the embedding is handled by the `src/main.py` script which provides the following command line arguments.
