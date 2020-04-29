@@ -6,6 +6,7 @@ from scipy import sparse
 
 class FEATHER:
     r"""An implementation of the node level unsupervised FEATHER.
+    
     Args:
         theta_max (float): Maximal evaluation point. Default is 2.5.
         eval_points (int): Number of characteristic function evaluation points. Default is 25.
@@ -19,6 +20,7 @@ class FEATHER:
     def _create_D_inverse(self, graph):
         """
         Creating a sparse inverse degree matrix.
+        
         Arg types:
             * **graph** *(NetworkX graph)* - The graph to be embedded.
         Return types:
@@ -33,6 +35,7 @@ class FEATHER:
     def _create_A_tilde(self, graph):
         """
         Creating a sparse normalized adjacency matrix.
+        
         Arg types:
             * **graph** *(NetworkX graph)* - The graph to be embedded.
         Return types:
@@ -49,7 +52,7 @@ class FEATHER:
 
         Arg types:
             * **graph** *(NetworkX graph)* - The graph to be embedded.
-            * **X** *(Scipy COO or Numpy array)* - The matrix of node features.
+            * **X** *(Numpy array)* - The matrix of node features.
         """
         theta = np.linspace(0.01, self.theta_max, self.eval_points)
         A_tilde = self._create_A_tilde(graph)
@@ -73,6 +76,7 @@ class FEATHER:
 
 class FEATHERG:
     r"""An implementation of the graph level unsupervised FEATHER.
+    
     Args:
         theta_max (float): Maximal evaluation point. Default is 2.5.
         eval_points (int): Number of characteristic function evaluation points. Default is 25.
