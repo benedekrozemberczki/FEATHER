@@ -7,9 +7,9 @@ from scipy import sparse
 class FEATHER:
     r"""An implementation of the node level unsupervised FEATHER.
     Args:
-        theta_max (float): HogWild! learning rate. Default is 2.5.
-        eval_points (int): Number of epochs. Default is 25.
-        order (int): Minimal count of node occurences. Default is 5.
+        theta_max (float): Maximal evaluation point. Default is 2.5.
+        eval_points (int): Number of characteristic function evaluation points. Default is 25.
+        order (int): Scale - number of adjacency matrix powers. Default is 5.
     """
     def __init__(self, theta_max=2.5, eval_points=25, order=5):
         self.theta_max = theta_max
