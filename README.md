@@ -65,7 +65,7 @@ The feature matrix is **dense** it is assumed that it is stored as csv with comm
 
 #### Graph level
 
-
+The graphs are stored in a JSON file where keys are graph identifiers and values are edge lists. Graph identifiers are consecutive and start with 0. Each individual graph has nodes which are indexed starting with 0. We assume that graphs are connected. 
 
 ```javascript
 { 0: [0, 1, 38, 1968, 2000, 52727],
