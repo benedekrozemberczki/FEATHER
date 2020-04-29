@@ -51,6 +51,11 @@ class FEATHER:
         self._X = np.concatenate(feature_blocks, axis=1)
 
     def get_embedding(self):
+        r"""Getting the node embedding.
+
+        Return types:
+            * **embedding** *(Numpy array)* - The embedding of nodes.
+        """
         return self._X
 
 
