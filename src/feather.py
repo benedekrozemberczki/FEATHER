@@ -116,6 +116,12 @@ class FEATHERG:
         return graph_embedding
     
     def fit(self, graphs):
+        """
+        Fitting a FEATHER model.
+
+        Arg types:
+            * **graphs** *(List of NetworkX graphs)* - The graphs to be embedded.
+        """
         self._X = np.array([self._fit_a_FEATHER(graph) for graph in tqdm(graphs)])
 
     def get_embedding(self):
