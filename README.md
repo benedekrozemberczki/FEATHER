@@ -79,7 +79,7 @@ Decreasing the number of evaluation points.
 $ python src/main.py --eval-points 25
 ```
 
-Training a pooled FEATHER model with the default dataset.
+Training a graph level FEATHER model with the default dataset.
 ```sh
 $ python src/main.py --model-type FEATHER-G
 ```
