@@ -99,6 +99,14 @@ class FEATHERG:
         return graph_embedding
 
     def _fit_a_FEATHER(self, graph):
+        """
+        Creating a graph level embedding.
+        
+        Arg types:
+            * **graph** *(NetworkX graph)* - The graph to be embedded.
+        Return types:
+            * **graph_embedding** *(Numpy array)* - The whole graph embedding vector.
+        """
         sub_model = FEATHER(self.theta_max, self.eval_points, self.order)
         feature = np.array([math.log(graph.degree(node)+1) for node in range(graph.number_of_nodes())])
         feature = feature.reshape(-1, 1)
