@@ -28,11 +28,14 @@ This repository provides the reference implementation for FEATHER as described i
 
 If you find FEATHER useful in your research, please consider citing the following paper:
 ```bibtex
->@misc{rozemberczki2020feather,    
-       title = {Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models},   
-       author = {Benedek Rozemberczki and Rik Sarkar},   
-       year = {2020}
-       }
+>@misc{rozemberczki2020characteristic,
+       title={Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models},
+       author={Benedek Rozemberczki and Rik Sarkar},
+       year={2020},
+       eprint={2005.07959},
+       archivePrefix={arXiv},
+       primaryClass={cs.LG}
+}
 ```
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
