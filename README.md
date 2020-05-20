@@ -1,4 +1,4 @@
-FEATHER
+FEATHER [![Arxiv](https://img.shields.io/badge/ArXiv-2005.07959-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/2005.07959)
 ============================================
 The Python reference implementation of FEATHER and FEATHER-G from "Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models."
 
