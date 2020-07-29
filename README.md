@@ -16,7 +16,7 @@ In this paper, we propose a flexible notion of characteristic functions defined 
 This repository provides the reference implementation for FEATHER as described in the paper:
 > Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models.
 > [Benedek Rozemberczki](http://homepages.inf.ed.ac.uk/s1668259/) and [Rik Sarkar](https://homepages.inf.ed.ac.uk/rsarkar/).
-> 2020.
+> CIKM, 2020.
 
 
 ### Table of Contents
