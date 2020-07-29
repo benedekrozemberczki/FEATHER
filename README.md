@@ -35,7 +35,7 @@ If you find FEATHER useful in your research, please consider citing the followin
                author={Benedek Rozemberczki and Rik Sarkar},
                year={2020},
 	       booktitle={Proceedings of the 29th ACM International on Conference on Information and Knowledge Management (CIKM '20)},
-	       organization={ACM}
+	       organization={ACM},
 }
 ```
 ### Requirements
