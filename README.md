@@ -20,6 +20,7 @@ This repository provides the reference implementation for FEATHER as described i
 > CIKM, 2020.
 
 ============================================
+
 ### Table of Contents
 
 1. [Citing](#citing)  
