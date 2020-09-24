@@ -8,6 +8,7 @@ The Python reference implementation of FEATHER and FEATHER-G from the CIKM '20 p
   <img width="600" src="charfun.jpg">
 </p>
 
+============================================
 ### Abstract
 
 <p align="justify">
@@ -18,14 +19,14 @@ This repository provides the reference implementation for FEATHER as described i
 > [Benedek Rozemberczki](http://homepages.inf.ed.ac.uk/s1668259/) and [Rik Sarkar](https://homepages.inf.ed.ac.uk/rsarkar/).
 > CIKM, 2020.
 
-
+============================================
 ### Table of Contents
 
 1. [Citing](#citing)  
 2. [Requirements](#requirements)
 3. [Options](#options) 
 4. [Examples](#examples)
-
+============================================
 ### Citing
 
 If you find FEATHER useful in your research, please consider citing the following paper:
@@ -38,6 +39,7 @@ If you find FEATHER useful in your research, please consider citing the followin
 	       organization={ACM},
 }
 ```
+============================================
 ### Requirements
 The codebase is implemented in Python 3.5.2. package versions used for development are just below.
 ```
@@ -49,7 +51,7 @@ texttable         1.5.0
 scipy             1.1.0
 argparse          1.1.0
 ```
-
+============================================
 ### Input
 
 #### Node level
@@ -78,7 +80,7 @@ The graphs are stored in a JSON file where keys are graph identifiers and values
   ...
   n: [[0, 1], [1, 2]]}
 ```
-
+============================================
 ### Options
 
 Learning the embedding is handled by the `src/main.py` script which provides the following command line arguments.
@@ -97,7 +99,7 @@ Learning the embedding is handled by the `src/main.py` script which provides the
   --order         INT      Matrix powers approximated.          Default is  5.
   --theta-max     FLOAT    Length of random walk per source.    Default is  2.5.
 ```
-
+============================================
 ### Examples
 Training a FEATHER model.
 ```sh
