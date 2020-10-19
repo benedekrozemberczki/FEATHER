@@ -37,6 +37,7 @@ If you find FEATHER useful in your research, please consider citing the followin
                title={{Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models}},
                author={Benedek Rozemberczki and Rik Sarkar},
                year={2020},
+	       pages = {1325–1334},
 	       booktitle={Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM '20)},
 	       organization={ACM},
 }
