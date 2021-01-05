@@ -123,3 +123,8 @@ Training a graph level FEATHER model with the default dataset.
 ```sh
 $ python src/main.py --model-type FEATHER-G --output output/ER_graph_embedding.csv
 ```
+--------------------------------------------------------------------------------
+
+**License**
+
+- [MIT](https://github.com/benedekrozemberczki/FEATHER/blob/master/LICENSE)
