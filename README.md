@@ -1,6 +1,6 @@
 FEATHER 
 ============================================
-[![Arxiv](https://img.shields.io/badge/ArXiv-2005.07959-orange.svg?color=blue&style=plastic)](https://arxiv.org/abs/2005.07959) [![codebeat badge](https://codebeat.co/badges/6f53b1a1-71d2-453e-a59c-91c75f9ea3c3)](https://codebeat.co/projects/github-com-benedekrozemberczki-feather-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/FEATHER.svg)](https://github.com/benedekrozemberczki/FEATHER/archive/master.zip)
+[![Arxiv](https://img.shields.io/badge/ArXiv-2005.07959-orange.svg)](https://arxiv.org/abs/2005.07959) [![codebeat badge](https://codebeat.co/badges/6f53b1a1-71d2-453e-a59c-91c75f9ea3c3)](https://codebeat.co/projects/github-com-benedekrozemberczki-feather-master) [![repo size](https://img.shields.io/github/repo-size/benedekrozemberczki/FEATHER.svg)](https://github.com/benedekrozemberczki/FEATHER/archive/master.zip)
 
 The Python reference implementation of **FEATHER** and **FEATHER-G** from the CIKM '20 paper **Characteristic Functions on Graphs: Birds of a Feather, from Statistical Descriptors to Parametric Models.**
 
