@@ -128,3 +128,5 @@ $ python src/main.py --model-type FEATHER-G --output output/ER_graph_embedding.c
 **License**
 
 - [MIT](https://github.com/benedekrozemberczki/FEATHER/blob/master/LICENSE)
+
+--------------------------------------------------------------------------------
