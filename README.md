@@ -8,7 +8,7 @@ The Python reference implementation of **FEATHER** and **FEATHER-G** from the **
   <img width="600" src="charfun.jpg">
 </p>
 
---------------------------
+---------------------
 
 ### Abstract
 
